@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
+import Image from "next/image";
 import { useLanguage } from "@/contexts/LanguageContext";
 import style from "./Gallery.module.css";
 
@@ -112,9 +113,11 @@ const Gallery = () => {
                           <div key={item.id} className={style["gallery-item"]}>
                             <div className={style["gallery-image"]}>
                               {item.image.startsWith('/') ? (
-                                <img 
+                                <Image 
                                   src={item.image} 
                                   alt={item.title}
+                                  width={400}
+                                  height={300}
                                   className={style["gallery-photo"]}
                                 />
                               ) : (

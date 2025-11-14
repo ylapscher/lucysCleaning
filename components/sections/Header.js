@@ -221,7 +221,7 @@ const Header = () => {
             height={100}
             alt="Lucy's Cleaning"
           />
-          <span>Lucy's Cleaning</span>
+          <span>Lucy&apos;s Cleaning</span>
         </div>
 
         <div className={style["header-right"]}>

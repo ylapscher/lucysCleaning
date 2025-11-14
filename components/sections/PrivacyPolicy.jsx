@@ -88,7 +88,7 @@ const PrivacyPolicy = () => {
           <p>If there are any questions regarding this privacy policy, you may contact us using the information below.</p>
           
           <div className={style['contact-info']}>
-            <p><strong>Lucy's Cleaning LLC</strong></p>
+            <p><strong>Lucy&apos;s Cleaning LLC</strong></p>
             <p>WhatsApp: +1 (551) 301-2908</p>
           </div>
 

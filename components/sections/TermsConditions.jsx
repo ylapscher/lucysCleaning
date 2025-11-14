@@ -8,19 +8,19 @@ const TermsConditions = () => {
         <div className={style['terms-content']}>
           <h1>Terms & Conditions</h1>
           
-          <p>These Terms and Conditions ("Terms") govern your use of the Lucy's Cleaning LLC website and services. By accessing our website or using our services, you agree to be bound by these Terms.</p>
+          <p>These Terms and Conditions (&quot;Terms&quot;) govern your use of the Lucy&apos;s Cleaning LLC website and services. By accessing our website or using our services, you agree to be bound by these Terms.</p>
 
           <h2>1. Definitions</h2>
           <p>For the purpose of these terms and conditions, the following words shall have the following meanings:</p>
           <ul>
-            <li>The 'Company' refers to Lucy's Cleaning LLC.</li>
-            <li>The 'Customer' refers to the person or organization for whom the Company agrees to carry out cleaning services.</li>
-            <li>The 'Cleaner' refers to the employee or representative of the Company performing the cleaning work for the Customer.</li>
+            <li>The &apos;Company&apos; refers to Lucy&apos;s Cleaning LLC.</li>
+            <li>The &apos;Customer&apos; refers to the person or organization for whom the Company agrees to carry out cleaning services.</li>
+            <li>The &apos;Cleaner&apos; refers to the employee or representative of the Company performing the cleaning work for the Customer.</li>
           </ul>
 
           <h2>2. General Conditions</h2>
           <ul>
-            <li>The Company reserves the right to refuse or decline work at its discretion. Any agreed cleaning work will be undertaken by a cleaner of the Company's choice.</li>
+            <li>The Company reserves the right to refuse or decline work at its discretion. Any agreed cleaning work will be undertaken by a cleaner of the Company&apos;s choice.</li>
             <li>The Customer must advise the Company of any fragile items, valuable possessions, or special requirements before cleaning begins. The Company is not liable for damage to items not disclosed or consequential loss if not informed.</li>
             <li>The Customer is responsible for moving or securing personal belongings, valuables, or obstructions that may impede the cleaners. If assistance is required, this must be agreed in advance and may incur additional charges.</li>
             <li>Furniture and items may be moved if necessary for thorough cleaning. While care will be taken, the Company is not responsible for items being replaced exactly as originally positioned.</li>
@@ -54,20 +54,20 @@ const TermsConditions = () => {
           <h2>6. Liability</h2>
           <ul>
             <li>The Company is only liable for works it completes and does not accept responsibility for consequential damages or defects from uncompleted or unrelated work.</li>
-            <li>The Company's liability is limited to the cost of the work performed.</li>
+            <li>The Company&apos;s liability is limited to the cost of the work performed.</li>
             <li>The Company is not liable for delays caused by factors beyond its reasonable control, including but not limited to acts of God, supplier delays, or Customer inaccessibility.</li>
           </ul>
 
           <h2>7. Cancellation and Changes</h2>
           <ul>
-            <li>The Customer may cancel or reschedule appointments with at least 24 hours' notice.</li>
-            <li>Cancellations with less than 24 hours' notice may incur a service call fee.</li>
+            <li>The Customer may cancel or reschedule appointments with at least 24 hours&apos; notice.</li>
+            <li>Cancellations with less than 24 hours&apos; notice may incur a service call fee.</li>
             <li>Changes to the scope of work must be agreed upon in writing and may affect pricing and scheduling.</li>
           </ul>
 
           <h2>8. Property and Materials</h2>
           <ul>
-            <li>The Company brings all necessary cleaning supplies and equipment. Customer-supplied cleaning products may be used if requested, but are not covered under the Company's warranty.</li>
+            <li>The Company brings all necessary cleaning supplies and equipment. Customer-supplied cleaning products may be used if requested, but are not covered under the Company&apos;s warranty.</li>
           </ul>
 
           <h2>9. Safety and Compliance</h2>
@@ -95,7 +95,7 @@ const TermsConditions = () => {
 
           <h2>Contact Information</h2>
           <div className={style['contact-info']}>
-            <p><strong>Lucy's Cleaning LLC</strong></p>
+            <p><strong>Lucy&apos;s Cleaning LLC</strong></p>
             <p>WhatsApp: +1 (551) 301-2908</p>
           </div>
 
