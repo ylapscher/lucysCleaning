@@ -2,8 +2,8 @@
   position: fixed;
   bottom: 2rem;
   right: 2rem;
-  background: var(--accent-yellow);
-  color: var(--primary-navy);
+  background: #25D366;
+  color: white;
   border: none;
   border-radius: 50px;
   padding: 1rem 1.5rem;
@@ -14,10 +14,11 @@
   transition: all 0.3s ease;
   z-index: 1000;
   white-space: nowrap;
+  text-decoration: none;
 }
 
 .floating-quote-button:hover {
-  background: #f7b500;
+  background: #20BA5A;
   transform: translateY(-2px);
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
 }

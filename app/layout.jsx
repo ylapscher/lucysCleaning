@@ -13,14 +13,21 @@ const geistMono = Geist_Mono({
 
 export const metadata = {
   title:
-    "Knock On Block - Reliable Handyman Services | Northern NJ & Southern NY",
+    "Lucy's Cleaning - Professional Home Cleaning Services | Zoila's Home Cleaning",
   description:
-    "Professional handyman services in Northern New Jersey and Southern New York. Specializing in TV mounting, smart device installation, drywall repair, plumbing, electrical work, and home improvements. Trusted, reliable service from someone you can count on.",
+    "Professional home cleaning services. Specializing in deep cleaning, regular maintenance, move-in/move-out cleaning, post-construction cleanup, office cleaning, and more. Trusted, reliable cleaning service you can count on.",
+  keywords: "cleaning services, home cleaning, office cleaning, deep cleaning, move-in cleaning, move-out cleaning, professional cleaning, Lucy's Cleaning, Zoila's Cleaning",
+  alternates: {
+    languages: {
+      'en': '/',
+      'es': '/',
+    },
+  },
 };
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="es">
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
         {children}
       </body>

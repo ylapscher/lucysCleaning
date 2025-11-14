@@ -1,7 +1,12 @@
+"use client";
+
 import Image from "next/image";
 import style from "./About.module.css";
+import { useLanguage } from "@/contexts/LanguageContext";
 
 const About = () => {
+  const { t } = useLanguage();
+  
   return (
     <section id="about" className={style.about}>
       <div className={style.container}>
@@ -11,34 +16,31 @@ const About = () => {
               src="/Zach-circle.png"
               width={300}
               height={300}
-              alt="Zach at Work"
+              alt="Zoila at Work"
               className={style["about-photo"]}
             />
           </div>
           <div className={style["about-text"]}>
-            <h2>About Zach</h2>
-            <p>
-              Zach has over 10 years of experience in home repairs. He grew up
-              learning handyman skills and has enhanced them through hands-on
-              home remodels. In addition to running Knock on Block, Zach works
-              as a professional engineer in the prosthetics industry.
-            </p>
+            <h2>{t("about.title")}</h2>
+            <p>{t("about.description")}</p>
             <div className={style["about-highlights"]}>
               <div className={style.highlight}>
                 <span className={style["highlight-number"]}>10+</span>
                 <span className={style["highlight-text"]}>
-                  Years Experience
+                  {t("about.highlights.years")}
                 </span>
               </div>
               <div className={style.highlight}>
                 <span className={style["highlight-number"]}>100%</span>
                 <span className={style["highlight-text"]}>
-                  Customer Satisfaction
+                  {t("about.highlights.satisfaction")}
                 </span>
               </div>
               <div className={style.highlight}>
                 <span className={style["highlight-number"]}>6</span>
-                <span className={style["highlight-text"]}>Counties Served</span>
+                <span className={style["highlight-text"]}>
+                  {t("about.highlights.counties")}
+                </span>
               </div>
             </div>
           </div>

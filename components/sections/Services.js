@@ -4,6 +4,7 @@ import { useRef, useEffect, useState } from "react";
 
 import ServiceCard from "@/components/ui/ServiceCard";
 import { scrollToContact } from "@/lib/utils";
+import { useLanguage } from "@/contexts/LanguageContext";
 import {
   primaryServices,
   secondaryServices,
@@ -15,6 +16,7 @@ import style from "./Services.module.css";
 const Services = () => {
   const [isVisible, setIsVisible] = useState(false);
   const sectionRef = useRef(null);
+  const { t } = useLanguage();
 
   // Intersection Observer to pause animations when not visible
   useEffect(() => {
@@ -42,8 +44,8 @@ const Services = () => {
         <div className={style["services-wrapper"]}>
           {/* Main Header */}
           <div className={style["services-main-header"]}>
-            <h2>Our Services</h2>
-            <p>Professional handyman services you can rely on</p>
+            <h2>{t("services.title")}</h2>
+            <p>{t("services.subtitle")}</p>
           </div>
 
           {/* All Services Grid */}
@@ -62,13 +64,10 @@ const Services = () => {
           {/* Call to Action */}
           <div className={style["services-cta"]}>
             <div className={style["cta-content"]}>
-              <h3>Need Something Else?</h3>
-              <p>
-                We handle all types of home repairs and improvements. Contact us
-                for any project!
-              </p>
+              <h3>{t("services.cta.title")}</h3>
+              <p>{t("services.cta.description")}</p>
               <button className={style["cta-button"]} onClick={scrollToContact}>
-                Request a Quote
+                {t("services.cta.button")}
               </button>
             </div>
           </div>

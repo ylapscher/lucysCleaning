@@ -88,8 +88,8 @@ const PrivacyPolicy = () => {
           <p>If there are any questions regarding this privacy policy, you may contact us using the information below.</p>
           
           <div className={style['contact-info']}>
-            <p><strong>Knock on Block Handyman Services LLC</strong></p>
-            <p>Email: info@knockonblock.com</p>
+            <p><strong>Lucy's Cleaning LLC</strong></p>
+            <p>WhatsApp: +1 (551) 301-2908</p>
           </div>
 
           <p className={style['last-updated']}>Last Edited on {new Date().toLocaleDateString()}</p>

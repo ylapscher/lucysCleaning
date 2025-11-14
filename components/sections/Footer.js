@@ -2,10 +2,12 @@
 
 import Image from "next/image";
 import Link from "next/link";
+import { useLanguage } from "@/contexts/LanguageContext";
 import style from "./Footer.module.css";
-import { FaFacebook } from "react-icons/fa";
 
 const Footer = () => {
+  const { t } = useLanguage();
+  
   return (
     <footer className={style.footer}>
       <div className={style.container}>
@@ -30,48 +32,34 @@ const Footer = () => {
                   src="/KOB_Logo_Final_White_NoBG.png"
                   width={600}
                   height={462}
-                  alt="Knock on Block"
+                  alt="Lucy's Cleaning"
                 />
               </div>
-              <p>Knocking Out Repairs, Block by Block!</p>
+              <p>{t("footer.tagline")}</p>
             </div>
 
             <div className={style["footer-links"]}>
-              <h4>Legal</h4>
+              <h4>{t("footer.legal")}</h4>
               <ul>
                 <li>
-                  <Link href="/privacy-policy">Privacy Policy</Link>
+                  <Link href="/privacy-policy">{t("common.privacyPolicy")}</Link>
                 </li>
                 <li>
-                  <Link href="/terms-conditions">Terms & Conditions</Link>
+                  <Link href="/terms-conditions">{t("common.termsConditions")}</Link>
                 </li>
               </ul>
             </div>
 
             <div className={style["footer-contact"]}>
-              <h4>Contact</h4>
+              <h4>{t("footer.contact")}</h4>
               <div className={style["contact-items"]}>
                 <a
-                  href="mailto:info@knockonblock.com"
-                  className={style["social-link"]}
-                >
-                  📧 info@knockonblock.com
-                </a>
-
-              </div>
-            </div>
-
-            <div className={style["footer-social"]}>
-              <h4>Follow Us</h4>
-              <div className={style["social-links"]}>
-                <a
-                  href="https://www.facebook.com/knockonblock/"
+                  href="https://wa.me/15513012908"
                   target="_blank"
                   rel="noopener noreferrer"
                   className={style["social-link"]}
                 >
-                  <FaFacebook />
-                  <p>Facebook</p>
+                  💬 +1 (551) 301-2908
                 </a>
               </div>
             </div>
@@ -79,8 +67,7 @@ const Footer = () => {
 
           <div className={style["footer-bottom"]}>
             <p>
-              &copy; 2025 Knock on Block Handyman Services LLC. All rights
-              reserved.
+              {t("footer.copyright")}
             </p>
           </div>
         </div>

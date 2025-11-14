@@ -1,0 +1,184 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "about": "Acerca de Zoila",
+    "services": "Servicios",
+    "gallery": "Galería",
+    "testimonials": "Testimonios",
+    "faq": "Preguntas Frecuentes",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "title": "Servicios Profesionales de Limpieza del Hogar",
+    "subtitle": "Servicio de limpieza confiable de alguien en quien puedes contar.",
+    "cta": "Contáctenos"
+  },
+  "about": {
+    "title": "Acerca de Zoila",
+    "description": "Zoila tiene años de experiencia en servicios profesionales de limpieza. Se enorgullece de brindar servicios de limpieza exhaustivos y confiables y ha construido su reputación a través de la atención al detalle y la satisfacción del cliente. Lucy's Cleaning se dedica a hacer que su hogar u oficina esté impecable y cómoda.",
+    "highlights": {
+      "years": "Años de Experiencia",
+      "satisfaction": "Satisfacción del Cliente",
+      "counties": "Condados Atendidos"
+    }
+  },
+  "services": {
+    "title": "Nuestros Servicios",
+    "subtitle": "Servicios de limpieza profesionales en los que puede confiar",
+    "cta": {
+      "title": "¿Necesita Algo Más?",
+      "description": "Manejamos todo tipo de servicios de limpieza. ¡Contáctenos para cualquier necesidad de limpieza!",
+      "button": "Contáctenos"
+    },
+    "primary": [
+      {
+        "title": "Limpieza Profunda",
+        "description": "Servicio integral de limpieza profunda para toda su casa, incluyendo atención detallada a todas las áreas y superficies."
+      },
+      {
+        "title": "Mantenimiento Regular",
+        "description": "Servicios de limpieza semanales, quincenales o mensuales para mantener su hogar constantemente limpio y fresco."
+      },
+      {
+        "title": "Limpieza de Entrada/Salida",
+        "description": "Servicio de limpieza exhaustivo para mudarse o salir, asegurando que su espacio esté impecable y listo."
+      }
+    ],
+    "secondary": [
+      {
+        "title": "Limpieza Post-Construcción",
+        "description": "Limpieza especializada después de proyectos de construcción o renovación, eliminando polvo, escombros y residuos de construcción."
+      },
+      {
+        "title": "Limpieza de Oficinas",
+        "description": "Servicios profesionales de limpieza comercial para oficinas y espacios de trabajo para mantener un ambiente limpio y productivo."
+      },
+      {
+        "title": "Limpieza de Ventanas",
+        "description": "Limpieza de ventanas interiores y exteriores para vistas cristalinas y luz natural."
+      }
+    ],
+    "additional": [
+      {
+        "title": "Limpieza de Alfombras",
+        "description": "Limpieza profunda de alfombras y eliminación de manchas para restaurar la belleza y frescura de sus alfombras."
+      },
+      {
+        "title": "Limpieza de Tapicería",
+        "description": "Limpieza profesional de sofás, sillas y otros muebles tapizados para mantenerlos como nuevos."
+      },
+      {
+        "title": "Servicios Especializados",
+        "description": "Soluciones de limpieza personalizadas que incluyen limpieza de hornos, limpieza de refrigeradores y otras tareas especializadas."
+      }
+    ]
+  },
+  "gallery": {
+    "title": "Nuestro Trabajo",
+    "subtitle": "Proyectos recientes completados para clientes satisfechos",
+    "items": [
+      {
+        "title": "Limpieza Profunda",
+        "description": "Servicio integral de limpieza profunda para hogares completos"
+      },
+      {
+        "title": "Detalle de Cocina",
+        "description": "Limpieza exhaustiva de cocina incluyendo electrodomésticos y superficies"
+      },
+      {
+        "title": "Sanitización de Baño",
+        "description": "Limpieza y sanitización completa del baño"
+      },
+      {
+        "title": "Limpieza de Entrada",
+        "description": "Servicio de limpieza de entrada para hogares nuevos"
+      },
+      {
+        "title": "Post-Construcción",
+        "description": "Limpieza especializada después de proyectos de construcción"
+      },
+      {
+        "title": "Limpieza de Oficinas",
+        "description": "Servicios profesionales de limpieza comercial de oficinas"
+      }
+    ]
+  },
+  "testimonials": {
+    "title": "Lo Que Dicen Nuestros Clientes",
+    "subtitle": "Comentarios reales de clientes satisfechos",
+    "footer": "¡Únase a cientos de clientes satisfechos!",
+    "items": [
+      {
+        "text": "Zoila hizo una limpieza profunda increíble de nuestro hogar antes de mudarnos. Fue exhaustiva, profesional, y la casa se veía absolutamente impecable. La recomendaría a cualquiera. ¡Es un hallazgo!",
+        "date": "Marzo 2024"
+      },
+      {
+        "text": "¡Excelente servicio! Lucy's Cleaning ha estado haciendo nuestra limpieza de mantenimiento regular durante meses ahora. Su atención al detalle y profesionalismo realmente nos impresionó. Definitivamente continuaremos usando sus servicios.",
+        "date": "Febrero 2024"
+      },
+      {
+        "text": "Muy confiable y exhaustiva. Zoila limpió nuestro hogar después de nuestra renovación y ni siquiera se puede decir que alguna vez hubo polvo de construcción en todas partes. Fue puntual, cortés, y su trabajo superó nuestras expectativas. ¡Excelente trabajo!",
+        "date": "Enero 2024"
+      },
+      {
+        "text": "He usado Lucy's Cleaning para varios servicios ahora y he estado consistentemente impresionado. Zoila es profesional, justa con los precios, y siempre entrega trabajo de calidad. ¡Altamente recomendado!",
+        "date": "Diciembre 2023"
+      },
+      {
+        "text": "Servicio excepcional de principio a fin. La limpieza de salida se hizo con precisión y cuidado. Zoila es profesional, confiable, y su trabajo es de primera clase. ¡Usaré de nuevo!",
+        "date": "Noviembre 2023"
+      },
+      {
+        "text": "Zoila hizo un trabajo fantástico con la limpieza de nuestra oficina. Explicó su proceso claramente y completó el trabajo de manera eficiente. Muy satisfecho con la calidad y lo recomendaría a otros.",
+        "date": "Octubre 2023"
+      }
+    ]
+  },
+  "faq": {
+    "title": "Preguntas Frecuentes",
+    "subtitle": "Obtenga respuestas a preguntas comunes sobre nuestros servicios",
+    "items": [
+      {
+        "question": "¿Qué tan pronto recibiré una respuesta después de solicitar una cotización?",
+        "answer": "Respondemos a todas las solicitudes de cotización dentro de 1 día hábil, generalmente mucho antes por WhatsApp."
+      },
+      {
+        "question": "¿Las estimaciones son gratuitas?",
+        "answer": "Sí, las cotizaciones iniciales son completamente gratuitas y sin compromiso. Evaluaremos sus necesidades de limpieza y le proporcionaremos una estimación honesta."
+      },
+      {
+        "question": "¿Qué tipos de servicios de limpieza ofrecen?",
+        "answer": "Nos especializamos en limpieza profunda, limpieza de mantenimiento regular, limpieza de entrada/salida, limpieza post-construcción, limpieza de oficinas, limpieza de ventanas, limpieza de alfombras, limpieza de tapicería y servicios de limpieza especializados."
+      },
+      {
+        "question": "¿Traen sus propios suministros de limpieza?",
+        "answer": "Sí, traemos todos los suministros y equipos de limpieza necesarios. Sin embargo, si prefiere productos ecológicos específicos o tiene requisitos especiales, estaremos encantados de acomodar sus preferencias."
+      },
+      {
+        "question": "¿Con qué frecuencia puedo programar la limpieza de mantenimiento regular?",
+        "answer": "Ofrecemos opciones de programación flexibles que incluyen servicios de limpieza semanales, quincenales o mensuales. Trabajaremos con usted para encontrar la frecuencia que mejor se adapte a sus necesidades y presupuesto."
+      },
+      {
+        "question": "¿Sus productos de limpieza son seguros para mascotas y niños?",
+        "answer": "Sí, usamos productos de limpieza seguros y efectivos. Si tiene preocupaciones o preferencias específicas con respecto a los productos de limpieza, por favor infórmenos y acomodaremos sus necesidades."
+      }
+    ]
+  },
+  "contact": {
+    "title": "Contáctenos",
+    "subtitle": "¿Listo para limpiar su hogar u oficina? Comuníquese con nosotros por WhatsApp y le responderemos con una estimación gratuita.",
+    "whatsapp": "WhatsApp"
+  },
+  "footer": {
+    "tagline": "¡Haciendo que su Hogar Brille, Una Limpieza a la Vez!",
+    "legal": "Legal",
+    "contact": "Contacto",
+    "copyright": "© 2025 Lucy's Cleaning LLC. Todos los derechos reservados."
+  },
+  "common": {
+    "contactUs": "Contáctenos",
+    "privacyPolicy": "Política de Privacidad",
+    "termsConditions": "Términos y Condiciones"
+  }
+}
+

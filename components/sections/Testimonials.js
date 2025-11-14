@@ -3,6 +3,7 @@
 import { useState, useEffect, useRef } from "react";
 import TestimonialCard from "../ui/TestimonialCard";
 import { testimonials } from "../../assets/data/testimonials";
+import { useLanguage } from "@/contexts/LanguageContext";
 import style from "./Testimonials.module.css";
 
 const Testimonials = () => {
@@ -10,6 +11,7 @@ const Testimonials = () => {
   const [showOnePerSlide, setShowOnePerSlide] = useState(false);
   const [isVisible, setIsVisible] = useState(false);
   const sectionRef = useRef(null);
+  const { t } = useLanguage();
 
   const slidesPerView = showOnePerSlide ? 1 : 2;
 
@@ -68,8 +70,8 @@ const Testimonials = () => {
       <div className={style.container}>
         <div className={style["testimonials-wrapper"]}>
           <div className={style["section-header"]}>
-            <h2>What Our Customers Say</h2>
-            <p>Real feedback from satisfied customers</p>
+            <h2>{t("testimonials.title")}</h2>
+            <p>{t("testimonials.subtitle")}</p>
           </div>
 
           <div className={style["testimonials-slider-container"]}>
@@ -122,7 +124,7 @@ const Testimonials = () => {
 
           <div className={style["testimonials-footer"]}>
             <p>
-              Join hundreds of satisfied customers!
+              {t("testimonials.footer")}
             </p>
           </div>
         </div>

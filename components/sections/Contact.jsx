@@ -1,28 +1,24 @@
 'use client'
 
 import style from './Contact.module.css';
+import { useLanguage } from '@/contexts/LanguageContext';
 
 const Contact = () => {
+  const { t } = useLanguage();
+  
   return (
     <section id="contact" className={style.contact}>
       <div className={style.container}>
         <div className={style['contact-content']}>
           <div className={style['contact-info']}>
-            <h2>Contact Us</h2>
-            <p>Ready to get your project started? Reach out to us and we'll get back to you with a free estimate.</p>
+            <h2>{t("contact.title")}</h2>
+            <p>{t("contact.subtitle")}</p>
             
             <div className={style['contact-details']}>
               <div className={style['contact-item']}>
-                <span className={style['contact-icon']}>📧</span>
-                <div>
-                  <strong>Email</strong>
-                  <p>info@knockonblock.com</p>
-                </div>
-              </div>
-              <div className={style['contact-item']}>
                 <span className={style['contact-icon']}>💬</span>
                 <div>
-                  <strong>WhatsApp</strong>
+                  <strong>{t("contact.whatsapp")}</strong>
                   <p>
                     <a 
                       href="https://wa.me/15513012908" 
@@ -30,7 +26,7 @@ const Contact = () => {
                       rel="noopener noreferrer"
                       className={style['whatsapp-link']}
                     >
-                      (551) 301-2908
+                      +1 (551) 301-2908
                     </a>
                   </p>
                 </div>

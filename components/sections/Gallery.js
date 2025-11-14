@@ -1,48 +1,50 @@
 "use client";
 
 import { useState, useEffect } from "react";
+import { useLanguage } from "@/contexts/LanguageContext";
 import style from "./Gallery.module.css";
 
 const Gallery = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isMobile, setIsMobile] = useState(false);
+  const { t } = useLanguage();
 
   const galleryItems = [
     {
       id: 1,
-      title: "TV Mount",
+      title: t("gallery.items.0.title"),
       image: "/TV-mount.jpg",
-      description: "Professional TV wall mounting with cable management",
+      description: t("gallery.items.0.description"),
     },
     {
       id: 2,
-      title: "Vanity Install",
+      title: t("gallery.items.1.title"),
       image: "/Bathroom-vanity.jpg",
-      description: "Custom bathroom vanity installation and plumbing",
+      description: t("gallery.items.1.description"),
     },
     {
       id: 3,
-      title: "Smart Thermostat",
+      title: t("gallery.items.2.title"),
       image: "/Smart-thermostat.jpg",
-      description: "Smart thermostat installation and setup",
+      description: t("gallery.items.2.description"),
     },
     {
       id: 4,
-      title: "Light Fixture Install",
+      title: t("gallery.items.3.title"),
       image: "/Light-fixture.jpg",
-      description: "Ceiling fan and pendant light installation",
+      description: t("gallery.items.3.description"),
     },
     {
       id: 5,
-      title: "Drywall Repair",
+      title: t("gallery.items.4.title"),
       image: "/Drywall-repair.png",
-      description: "Professional drywall patching and painting",
+      description: t("gallery.items.4.description"),
     },
     {
       id: 6,
-      title: "Reverse Osmosis System",
+      title: t("gallery.items.5.title"),
       image: "/RO-filter.jpg",
-      description: "Installation of drinking water filtration system and faucet",
+      description: t("gallery.items.5.description"),
     },
   ];
 
@@ -86,8 +88,8 @@ const Gallery = () => {
       <div className={style.container}>
         <div className={style["gallery-wrapper"]}>
           <div className={style["section-header"]}>
-            <h2>Our Work</h2>
-            <p>Recent projects completed for satisfied customers</p>
+            <h2>{t("gallery.title")}</h2>
+            <p>{t("gallery.subtitle")}</p>
           </div>
           <div className={style["gallery-container"]}>
             <button className={style["gallery-arrow"]} onClick={goToPrevious}>

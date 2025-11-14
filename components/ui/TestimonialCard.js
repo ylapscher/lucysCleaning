@@ -1,7 +1,16 @@
+"use client";
+
 import React from 'react';
+import { useLanguage } from '@/contexts/LanguageContext';
 import style from './TestimonialCard.module.css';
 
 const TestimonialCard = ({ testimonial }) => {
+  const { t } = useLanguage();
+  
+  // Get translated testimonial
+  const testimonialIndex = testimonial.id - 1;
+  const text = t(`testimonials.items.${testimonialIndex}.text`) || testimonial.text;
+  const date = t(`testimonials.items.${testimonialIndex}.date`) || testimonial.date;
   const renderStars = (rating) => {
     return Array.from({ length: 5 }, (_, i) => (
       <span key={i} className={`${style['star']} ${i < rating ? style['filled'] : ''}`}>
@@ -25,7 +34,7 @@ const TestimonialCard = ({ testimonial }) => {
           {renderStars(testimonial.rating)}
         </div>
         <blockquote className={style['testimonial-text']}>
-          {testimonial.text}
+          {text}
         </blockquote>
       </div>
       <div className={style['testimonial-footer']}>
@@ -38,8 +47,8 @@ const TestimonialCard = ({ testimonial }) => {
             {testimonial.location && (
               <div className={style['author-location']}>{testimonial.location}</div>
             )}
-            {testimonial.date && (
-              <div className={style['testimonial-date']}>{testimonial.date}</div>
+            {date && (
+              <div className={style['testimonial-date']}>{date}</div>
             )}
           </div>
         </div>

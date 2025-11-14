@@ -1,0 +1,184 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About Zoila",
+    "services": "Services",
+    "gallery": "Gallery",
+    "testimonials": "Testimonials",
+    "faq": "FAQs",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Professional Home Cleaning Services",
+    "subtitle": "Trusted cleaning service from someone you can count on.",
+    "cta": "Contact Us"
+  },
+  "about": {
+    "title": "About Zoila",
+    "description": "Zoila has years of experience in professional cleaning services. She takes pride in providing thorough, reliable cleaning services and has built her reputation through attention to detail and customer satisfaction. Lucy's Cleaning is dedicated to making your home or office spotless and comfortable.",
+    "highlights": {
+      "years": "Years Experience",
+      "satisfaction": "Customer Satisfaction",
+      "counties": "Counties Served"
+    }
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "Professional cleaning services you can rely on",
+    "cta": {
+      "title": "Need Something Else?",
+      "description": "We handle all types of cleaning services. Contact us for any cleaning needs!",
+      "button": "Contact Us"
+    },
+    "primary": [
+      {
+        "title": "Deep Cleaning",
+        "description": "Comprehensive deep cleaning service for your entire home, including detailed attention to all areas and surfaces."
+      },
+      {
+        "title": "Regular Maintenance",
+        "description": "Weekly, bi-weekly, or monthly cleaning services to keep your home consistently clean and fresh."
+      },
+      {
+        "title": "Move-in/Move-out Cleaning",
+        "description": "Thorough cleaning service for moving in or out, ensuring your space is spotless and ready."
+      }
+    ],
+    "secondary": [
+      {
+        "title": "Post-Construction Cleanup",
+        "description": "Specialized cleaning after construction or renovation projects, removing dust, debris, and construction residue."
+      },
+      {
+        "title": "Office Cleaning",
+        "description": "Professional commercial cleaning services for offices and workspaces to maintain a clean, productive environment."
+      },
+      {
+        "title": "Window Cleaning",
+        "description": "Interior and exterior window cleaning for crystal-clear views and natural light."
+      }
+    ],
+    "additional": [
+      {
+        "title": "Carpet Cleaning",
+        "description": "Deep carpet cleaning and stain removal to restore the beauty and freshness of your carpets."
+      },
+      {
+        "title": "Upholstery Cleaning",
+        "description": "Professional cleaning of sofas, chairs, and other upholstered furniture to keep them looking like new."
+      },
+      {
+        "title": "Specialty Services",
+        "description": "Customized cleaning solutions including oven cleaning, refrigerator cleaning, and other specialized tasks."
+      }
+    ]
+  },
+  "gallery": {
+    "title": "Our Work",
+    "subtitle": "Recent projects completed for satisfied customers",
+    "items": [
+      {
+        "title": "Deep Clean",
+        "description": "Comprehensive deep cleaning service for entire homes"
+      },
+      {
+        "title": "Kitchen Detail",
+        "description": "Thorough kitchen cleaning including appliances and surfaces"
+      },
+      {
+        "title": "Bathroom Sanitization",
+        "description": "Complete bathroom cleaning and sanitization"
+      },
+      {
+        "title": "Move-in Cleaning",
+        "description": "Move-in cleaning service for new homes"
+      },
+      {
+        "title": "Post-Construction",
+        "description": "Specialized cleaning after construction projects"
+      },
+      {
+        "title": "Office Cleaning",
+        "description": "Professional commercial office cleaning services"
+      }
+    ]
+  },
+  "testimonials": {
+    "title": "What Our Customers Say",
+    "subtitle": "Real feedback from satisfied customers",
+    "footer": "Join hundreds of satisfied customers!",
+    "items": [
+      {
+        "text": "Zoila did an amazing deep clean of our home before we moved in. She was thorough, professional, and the house looked absolutely spotless. I would recommend her to anyone. She is a find!",
+        "date": "March 2024"
+      },
+      {
+        "text": "Excellent service! Lucy's Cleaning has been doing our regular maintenance cleaning for months now. Their attention to detail and professionalism really impressed us. Will definitely continue using their services.",
+        "date": "February 2024"
+      },
+      {
+        "text": "Very reliable and thorough. Zoila cleaned our home after our renovation and you can't even tell there was ever construction dust everywhere. She was punctual, courteous, and her work exceeded our expectations. Great work!",
+        "date": "January 2024"
+      },
+      {
+        "text": "I've used Lucy's Cleaning for several services now and have been consistently impressed. Zoila is professional, fair with pricing, and always delivers quality work. Highly recommended!",
+        "date": "December 2023"
+      },
+      {
+        "text": "Outstanding service from start to finish. The move-out cleaning was done with precision and care. Zoila is professional, reliable, and her work is top-notch. Will use again!",
+        "date": "November 2023"
+      },
+      {
+        "text": "Zoila did a fantastic job with our office cleaning. She explained her process clearly and completed the work efficiently. Very satisfied with the quality and would recommend to others.",
+        "date": "October 2023"
+      }
+    ]
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "Get answers to common questions about our services",
+    "items": [
+      {
+        "question": "How soon will I hear back after requesting a quote?",
+        "answer": "We respond to all quote requests within 1 business day, usually much sooner via WhatsApp."
+      },
+      {
+        "question": "Are estimates free?",
+        "answer": "Yes, initial quotes are completely free and no-obligation. We'll assess your cleaning needs and provide an honest estimate."
+      },
+      {
+        "question": "What types of cleaning services do you offer?",
+        "answer": "We specialize in deep cleaning, regular maintenance cleaning, move-in/move-out cleaning, post-construction cleanup, office cleaning, window cleaning, carpet cleaning, upholstery cleaning, and specialty cleaning services."
+      },
+      {
+        "question": "Do you bring your own cleaning supplies?",
+        "answer": "Yes, we bring all necessary cleaning supplies and equipment. However, if you prefer specific eco-friendly products or have special requirements, we're happy to accommodate your preferences."
+      },
+      {
+        "question": "How often can I schedule regular maintenance cleaning?",
+        "answer": "We offer flexible scheduling options including weekly, bi-weekly, or monthly cleaning services. We'll work with you to find the frequency that best fits your needs and budget."
+      },
+      {
+        "question": "Are your cleaning products safe for pets and children?",
+        "answer": "Yes, we use safe, effective cleaning products. If you have specific concerns or preferences regarding cleaning products, please let us know and we'll accommodate your needs."
+      }
+    ]
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "Ready to get your home or office cleaned? Reach out to us via WhatsApp and we'll get back to you with a free estimate.",
+    "whatsapp": "WhatsApp"
+  },
+  "footer": {
+    "tagline": "Making Your Home Sparkle, One Clean at a Time!",
+    "legal": "Legal",
+    "contact": "Contact",
+    "copyright": "© 2025 Lucy's Cleaning LLC. All rights reserved."
+  },
+  "common": {
+    "contactUs": "Contact Us",
+    "privacyPolicy": "Privacy Policy",
+    "termsConditions": "Terms & Conditions"
+  }
+}
+

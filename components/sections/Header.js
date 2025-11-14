@@ -5,6 +5,8 @@ import { useRouter, usePathname } from "next/navigation";
 
 import { useState, useEffect, useCallback, useRef } from "react";
 import { useScrollToSection } from "@/hooks/useScrollToSection";
+import { useLanguage } from "@/contexts/LanguageContext";
+import LanguageToggle from "@/components/ui/LanguageToggle";
 import style from "./Header.module.css";
 import { SCROLL_CONFIG, HEADER_CONFIG } from "../../lib/constants";
 
@@ -17,6 +19,7 @@ const Header = () => {
   const router = useRouter();
   const pathname = usePathname();
   const scrollToSection = useScrollToSection();
+  const { t } = useLanguage();
   
   // Refs for scroll completion detection
   const scrollTimeoutRef = useRef(null);
@@ -194,13 +197,13 @@ const Header = () => {
   }, []);
 
   const navItems = [
-    { id: "home", label: "Home" },
-    { id: "about", label: "About Zach" },
-    { id: "services", label: "Services" },
-    { id: "gallery", label: "Gallery" },
-    { id: "testimonials", label: "Testimonials" },
-    { id: "faq", label: "FAQs" },
-    { id: "contact", label: "Contact" },
+    { id: "home", label: t("nav.home") },
+    { id: "about", label: t("nav.about") },
+    { id: "services", label: t("nav.services") },
+    { id: "gallery", label: t("nav.gallery") },
+    { id: "testimonials", label: t("nav.testimonials") },
+    { id: "faq", label: t("nav.faq") },
+    { id: "contact", label: t("nav.contact") },
   ];
 
   return (
@@ -216,37 +219,39 @@ const Header = () => {
             src="/KOB_Logo_Final_Dark_NoBG.png"
             width={100}
             height={100}
-            alt="Knock on Block"
+            alt="Lucy's Cleaning"
           />
-          <span>Knock on Block</span>
+          <span>Lucy's Cleaning</span>
         </div>
 
-        <nav
-          className={`${style.nav} ${
-            isMobileMenuOpen ? style["nav-open"] : ""
-          }`}
-        >
-          {navItems.map((item) => (
-            <button
-              key={item.id}
-              onClick={() => handleNavItemClick(item.id)}
-              className={`${style["nav-link"]} ${
-                activeSection === item.id ? style.active : ""
-              }`}
-            >
-              {item.label}
-            </button>
-          ))}
-        </nav>
-
-        <button
-          className={style["mobile-menu-toggle"]}
-          onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-        >
-          <span></span>
-          <span></span>
-          <span></span>
-        </button>
+        <div className={style["header-right"]}>
+          <nav
+            className={`${style.nav} ${
+              isMobileMenuOpen ? style["nav-open"] : ""
+            }`}
+          >
+            {navItems.map((item) => (
+              <button
+                key={item.id}
+                onClick={() => handleNavItemClick(item.id)}
+                className={`${style["nav-link"]} ${
+                  activeSection === item.id ? style.active : ""
+                }`}
+              >
+                {item.label}
+              </button>
+            ))}
+          </nav>
+          <LanguageToggle />
+          <button
+            className={style["mobile-menu-toggle"]}
+            onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+          >
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
       </div>
     </header>
   );

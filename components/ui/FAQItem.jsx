@@ -1,12 +1,19 @@
 'use client'
 
 import { useState, useRef, useEffect } from 'react';
+import { useLanguage } from '@/contexts/LanguageContext';
 import style from './FAQItem.module.css';
 
 const FAQItem = ({ faq }) => {
   const [isOpen, setIsOpen] = useState(false);
   const [contentHeight, setContentHeight] = useState(0);
   const contentRef = useRef(null);
+  const { t } = useLanguage();
+
+  // Get translated FAQ
+  const faqIndex = faq.id - 1;
+  const question = t(`faq.items.${faqIndex}.question`) || faq.question;
+  const answer = t(`faq.items.${faqIndex}.answer`) || faq.answer;
 
   // Measure the content height when component mounts or content changes
   useEffect(() => {
@@ -14,7 +21,7 @@ const FAQItem = ({ faq }) => {
       const height = contentRef.current.scrollHeight;
       setContentHeight(height);
     }
-  }, [faq.answer]);
+  }, [answer]);
 
   const toggleAccordion = () => {
     setIsOpen(!isOpen);
@@ -29,7 +36,7 @@ const FAQItem = ({ faq }) => {
         aria-expanded={isOpen}
         aria-controls={`faq-answer-${faq.id}`}
       >
-        <span>{faq.question}</span>
+        <span>{question}</span>
         <div className={style['faq-toggle']}>
           {isOpen ? '−' : '+'}
         </div>
@@ -45,7 +52,7 @@ const FAQItem = ({ faq }) => {
         }}
       >
         <div ref={contentRef} className={style['faq-answer-content']}>
-          <p>{faq.answer}</p>
+          <p>{answer}</p>
         </div>
       </div>
     </div>
