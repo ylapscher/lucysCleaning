@@ -35,15 +35,3 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
 
-## Environment Variables
-
-This project uses Resend for email functionality. You need to set up the following environment variable in your Vercel deployment:
-
-- `RESEND_API_KEY`: Your Resend API key (get it from https://resend.com/api-keys)
-
-### Setting up Resend
-
-1. Sign up for a free account at [Resend](https://resend.com)
-2. Create an API key in your dashboard
-3. Add the API key as an environment variable in your Vercel project settings
-4. Verify your domain in Resend (optional but recommended for production)

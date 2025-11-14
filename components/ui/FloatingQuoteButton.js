@@ -1,17 +1,18 @@
 "use client";
 
-import { scrollToContact } from "@/lib/utils";
 import style from "./FloatingQuoteButton.module.css";
 
 const FloatingQuoteButton = () => {
   return (
-    <button
+    <a
+      href="https://wa.me/15513012908"
+      target="_blank"
+      rel="noopener noreferrer"
       className={style["floating-quote-button"]}
-      onClick={scrollToContact}
-      aria-label="Request a Quote"
+      aria-label="Contact Us"
     >
-      Request a Quote
-    </button>
+      Contact Us
+    </a>
   );
 };
 
