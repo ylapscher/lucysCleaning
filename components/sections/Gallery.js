@@ -86,7 +86,7 @@ const Gallery = () => {
                               {item.image.startsWith('/') ? (
                                 <Image 
                                   src={item.image} 
-                                  alt={item.title}
+                                  alt={`${item.title} - ${item.description} by Lucy's Cleaning professional cleaning services`}
                                   width={400}
                                   height={300}
                                   className={style["gallery-photo"]}

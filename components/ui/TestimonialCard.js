@@ -25,35 +25,35 @@ const TestimonialCard = ({ testimonial }) => {
   };
 
   return (
-    <div className={style['testimonial-card']}>
-      <div className={style['testimonial-quote-icon']}>
+    <article className={style['testimonial-card']}>
+      <div className={style['testimonial-quote-icon']} aria-hidden="true">
         &ldquo;
       </div>
       <div className={style['testimonial-content']}>
-        <div className={style['testimonial-rating']}>
+        <div className={style['testimonial-rating']} aria-label={`${testimonial.rating} out of 5 stars`}>
           {renderStars(testimonial.rating)}
         </div>
-        <blockquote className={style['testimonial-text']}>
+        <blockquote className={style['testimonial-text']} cite={`${testimonial.name}`}>
           {text}
         </blockquote>
       </div>
-      <div className={style['testimonial-footer']}>
+      <footer className={style['testimonial-footer']}>
         <div className={style['testimonial-author']}>
-          <div className={style['author-avatar']}>
+          <div className={style['author-avatar']} aria-hidden="true">
             {getInitials(testimonial.name)}
           </div>
           <div className={style['author-info']}>
-            <div className={style['author-name']}>{testimonial.name}</div>
+            <cite className={style['author-name']}>{testimonial.name}</cite>
             {testimonial.location && (
               <div className={style['author-location']}>{testimonial.location}</div>
             )}
             {date && (
-              <div className={style['testimonial-date']}>{date}</div>
+              <time className={style['testimonial-date']} dateTime={date}>{date}</time>
             )}
           </div>
         </div>
-      </div>
-    </div>
+      </footer>
+    </article>
   );
 };
 

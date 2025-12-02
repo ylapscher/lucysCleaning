@@ -33,13 +33,13 @@ const ServiceCard = ({ service }) => {
   const description = getServiceTranslation(service.id, "description");
   
   return (
-    <div className={style['service-card']}>
-      <div className={style['service-icon']}>
+    <article className={style['service-card']}>
+      <div className={style['service-icon']} aria-hidden="true">
         {service.icon}
       </div>
       <h3 className={style['service-title']}>{title}</h3>
       <p className={style['service-description']}>{description}</p>
-    </div>
+    </article>
   );
 };
 

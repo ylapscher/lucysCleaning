@@ -217,7 +217,7 @@ const Header = () => {
             src={LOGO_CONFIG.LOGO_PATH}
             width={80}
             height={80}
-            alt="Lucy's Cleaning"
+            alt="Lucy's Cleaning - Professional Cleaning Services"
             style={{ objectFit: 'cover' }}
           />
           <span>Lucy&apos;s Cleaning</span>

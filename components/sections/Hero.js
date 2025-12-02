@@ -22,7 +22,7 @@ const Hero = () => {
         <div className={style["hero-image"]}>
           <Image
             src={LOGO_CONFIG.LOGO_PATH}
-            alt="Lucy's Cleaning logo"
+            alt="Lucy's Cleaning - Professional Home Cleaning Services Logo. Expert cleaning services in Hudson County, NJ"
             width={400}
             height={400}
             className={style["placeholder-image"]}

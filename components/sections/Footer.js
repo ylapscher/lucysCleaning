@@ -33,7 +33,7 @@ const Footer = () => {
                   src={LOGO_CONFIG.LOGO_PATH}
                   width={600}
                   height={462}
-                  alt="Lucy's Cleaning"
+                  alt="Lucy's Cleaning - Professional Home and Office Cleaning Services in Hudson County, NJ"
                 />
               </div>
               <p>{t("footer.tagline")}</p>

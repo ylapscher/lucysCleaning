@@ -16,7 +16,7 @@ const About = () => {
               src="/headshot.jpg"
               width={300}
               height={300}
-              alt="Zoila at Work"
+              alt="Zoila, professional cleaning service owner at Lucy's Cleaning, providing expert home and office cleaning services in Hudson County, NJ"
               className={style["about-photo"]}
             />
           </div>
