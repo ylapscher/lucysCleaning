@@ -8,9 +8,9 @@ export const testimonials = [
   },
   {
     id: 2,
-    name: "Mike R.",
+    name: "Yoel L.",
     rating: 5,
-    text: "Excellent service! Lucy's Cleaning has been doing our regular maintenance cleaning for months now. Their attention to detail and professionalism really impressed us. Will definitely continue using their services.",
+    text: "Zoila has been my cleaning professional since 2023, and I cannot recommend her highly enough. Her quality of work is consistently excellent, her pricing is very fair, and she's always flexible and accommodating with scheduling. She pays close attention to detail—from neatly folding blankets to ensuring all trash is removed—and is responsive and professional in all communication.",
     date: "February 2024"
   },
   {

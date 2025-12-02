@@ -4,6 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { useLanguage } from "@/contexts/LanguageContext";
 import style from "./Footer.module.css";
+import { LOGO_CONFIG } from "@/lib/constants";
 
 const Footer = () => {
   const { t } = useLanguage();
@@ -29,7 +30,7 @@ const Footer = () => {
               >
                 <Image
                   className={style["logo-svg"]}
-                  src="/KOB_Logo_Final_White_NoBG.png"
+                  src={LOGO_CONFIG.LOGO_PATH}
                   width={600}
                   height={462}
                   alt="Lucy's Cleaning"

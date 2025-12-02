@@ -13,7 +13,7 @@ const About = () => {
         <div className={style["about-content"]}>
           <div className={style["about-image"]}>
             <Image
-              src="/Zach-circle.png"
+              src="/headshot.jpg"
               width={300}
               height={300}
               alt="Zoila at Work"
@@ -25,7 +25,7 @@ const About = () => {
             <p>{t("about.description")}</p>
             <div className={style["about-highlights"]}>
               <div className={style.highlight}>
-                <span className={style["highlight-number"]}>10+</span>
+                <span className={style["highlight-number"]}>20+</span>
                 <span className={style["highlight-text"]}>
                   {t("about.highlights.years")}
                 </span>

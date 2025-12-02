@@ -8,12 +8,12 @@ import { useScrollToSection } from "@/hooks/useScrollToSection";
 import { useLanguage } from "@/contexts/LanguageContext";
 import LanguageToggle from "@/components/ui/LanguageToggle";
 import style from "./Header.module.css";
-import { SCROLL_CONFIG, HEADER_CONFIG } from "../../lib/constants";
+import { SCROLL_CONFIG, HEADER_CONFIG, LOGO_CONFIG } from "../../lib/constants";
 
 const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
-  const [activeSection, setActiveSection] = useState("home");
+  const [activeSection, setActiveSection] = useState("");
   const [isScrolling, setIsScrolling] = useState(false);
 
   const router = useRouter();
@@ -34,7 +34,6 @@ const Header = () => {
     // Only update active section if not currently scrolling to a specific section
     if (!isScrolling) {
       const sections = [
-        "home",
         "about",
         "services",
         "gallery",
@@ -44,7 +43,7 @@ const Header = () => {
       ];
       const scrollPosition = window.scrollY + HEADER_CONFIG.ACTIVE_SECTION_OFFSET; // Configurable offset for better accuracy
 
-      let newActiveSection = "home";
+      let newActiveSection = "";
 
       for (let i = sections.length - 1; i >= 0; i--) {
         const section = document.getElementById(sections[i]);
@@ -197,7 +196,6 @@ const Header = () => {
   }, []);
 
   const navItems = [
-    { id: "home", label: t("nav.home") },
     { id: "about", label: t("nav.about") },
     { id: "services", label: t("nav.services") },
     { id: "gallery", label: t("nav.gallery") },
@@ -216,10 +214,11 @@ const Header = () => {
         >
           <Image
             className={style["logo-svg"]}
-            src="/KOB_Logo_Final_Dark_NoBG.png"
-            width={100}
-            height={100}
+            src={LOGO_CONFIG.LOGO_PATH}
+            width={80}
+            height={80}
             alt="Lucy's Cleaning"
+            style={{ objectFit: 'cover' }}
           />
           <span>Lucy&apos;s Cleaning</span>
         </div>

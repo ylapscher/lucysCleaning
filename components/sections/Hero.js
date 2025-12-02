@@ -4,6 +4,7 @@ import Image from "next/image";
 import style from "./Hero.module.css";
 import { scrollToContact } from "@/lib/utils";
 import { useLanguage } from "@/contexts/LanguageContext";
+import { LOGO_CONFIG } from "@/lib/constants";
 
 const Hero = () => {
   const { t } = useLanguage();
@@ -20,13 +21,14 @@ const Hero = () => {
         </div>
         <div className={style["hero-image"]}>
           <Image
-            src="/KOB_Logo_Final_Dark_NoBG.png"
+            src={LOGO_CONFIG.LOGO_PATH}
             alt="Lucy's Cleaning logo"
             width={400}
             height={400}
             className={style["placeholder-image"]}
             priority
-            sizes="(max-width: 640px) 180px, (max-width: 968px) 350px, 350px"
+            sizes="(max-width: 640px) 250px, (max-width: 968px) 400px, 400px"
+            style={{ objectFit: 'cover' }}
           />
         </div>
       </div>

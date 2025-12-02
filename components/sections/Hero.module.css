@@ -1,9 +1,9 @@
 .hero {
-  min-height: 100vh;
+  min-height: 90vh;
   display: flex;
   align-items: center;
-  background: linear-gradient(135deg, #e3f2fd 0%, #bbdefb 100%);
-  padding: 8rem 2rem 4rem;
+  background: linear-gradient(135deg, #1E3A8A 0%, #1E40AF 50%, #3B82F6 100%);
+  padding: 5rem 2rem 3rem;
   position: relative;
   overflow: hidden;
 }
@@ -35,23 +35,23 @@
 .hero-text h1 {
   font-size: 3.5rem;
   font-weight: 800;
-  color: var(--primary-navy);
+  color: white;
   margin-bottom: 1.5rem;
   line-height: 1.1;
-  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 .hero-text p {
   font-size: 1.4rem;
-  color: var(--secondary-gray);
+  color: rgba(255, 255, 255, 0.95);
   margin-bottom: 2.5rem;
   line-height: 1.6;
   font-weight: 500;
 }
 
 .cta-button {
-  background: linear-gradient(135deg, var(--accent-yellow) 0%, #f39c12 100%);
-  color: white;
+  background: linear-gradient(135deg, var(--accent-yellow) 0%, #FFC107 100%);
+  color: var(--primary-navy);
   padding: 1.25rem 2.5rem;
   font-size: 1.2rem;
   font-weight: 700;
@@ -59,7 +59,7 @@
   border-radius: 50px;
   cursor: pointer;
   transition: all 0.3s ease;
-  box-shadow: 0 8px 25px rgba(247, 181, 0, 0.4);
+  box-shadow: 0 8px 25px rgba(255, 215, 0, 0.4);
   text-transform: uppercase;
   letter-spacing: 0.5px;
   position: relative;
@@ -87,9 +87,9 @@
 }
 
 .cta-button:hover {
-  background: linear-gradient(135deg, #f39c12 0%, var(--accent-yellow) 100%);
+  background: linear-gradient(135deg, #FFC107 0%, var(--accent-yellow) 100%);
   transform: translateY(-3px);
-  box-shadow: 0 12px 35px rgba(247, 181, 0, 0.6);
+  box-shadow: 0 12px 35px rgba(255, 215, 0, 0.6);
 }
 
 .cta-button:active {
@@ -102,25 +102,23 @@
   overflow: hidden;
   background-color: white;
   border-radius: 50%;
-  box-shadow: 0 20px 40px rgba(247, 181, 0, 0.3);
+  box-shadow: 0 20px 40px rgba(30, 58, 138, 0.3);
   display: flex;
   justify-content: center;
   align-items: center;
   justify-self: center;
   position: relative;
+  padding: 0;
 }
 
 .placeholder-image {
-  width: 350px;
-  height: 350px;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
   background: white;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 2rem;
-  color: white;
-  position: relative;
-  overflow: hidden;
+  display: block;
 }
 
 @keyframes float {
@@ -144,15 +142,11 @@
     font-size: 3rem;
   }
 
-  .placeholder-image {
-    width: 350px;
-    height: 350px;
-  }
 }
 
 @media (max-width: 640px) {
   .hero {
-    padding: 6rem 1rem 2rem;
+    padding: 4rem 1rem 2rem;
   }
 
   .hero-text h1 {
@@ -170,10 +164,5 @@
   .hero-image {
     width: 250px;
     height: 250px;
-  }
-
-  .placeholder-image {
-    width: 180px;
-    height: 180px;
   }
 }

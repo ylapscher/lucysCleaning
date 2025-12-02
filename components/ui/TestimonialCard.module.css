@@ -75,7 +75,7 @@
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  background: linear-gradient(135deg, var(--primary-navy), var(--steel-blue));
+  background: linear-gradient(135deg, var(--primary-navy), var(--royal-blue-dark));
   color: white;
   display: flex;
   align-items: center;

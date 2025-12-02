@@ -1,5 +1,5 @@
 .gallery {
-  padding: 8rem 2rem;
+  padding: 4rem 2rem;
   background: linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%);
   position: relative;
 }
@@ -26,7 +26,7 @@
 
 .section-header {
   text-align: center;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
   position: relative;
 }
 
@@ -61,7 +61,7 @@
   display: flex;
   align-items: center;
   gap: 1rem;
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
 }
 
 .gallery-wrapper {
@@ -161,7 +161,7 @@
 
 .gallery-image {
   height: 250px;
-  background: linear-gradient(135deg, var(--accent-yellow) 0%, #f39c12 100%);
+  background: linear-gradient(135deg, var(--accent-yellow) 0%, #FFC107 100%);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -229,7 +229,7 @@
 
 @media (max-width: 768px) {
   .gallery {
-    padding: 6rem 1rem;
+    padding: 3rem 1rem;
   }
 
   .section-header h2 {

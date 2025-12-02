@@ -88,18 +88,6 @@
       {
         "title": "Bathroom Sanitization",
         "description": "Complete bathroom cleaning and sanitization"
-      },
-      {
-        "title": "Move-in Cleaning",
-        "description": "Move-in cleaning service for new homes"
-      },
-      {
-        "title": "Post-Construction",
-        "description": "Specialized cleaning after construction projects"
-      },
-      {
-        "title": "Office Cleaning",
-        "description": "Professional commercial office cleaning services"
       }
     ]
   },
@@ -113,7 +101,7 @@
         "date": "March 2024"
       },
       {
-        "text": "Excellent service! Lucy's Cleaning has been doing our regular maintenance cleaning for months now. Their attention to detail and professionalism really impressed us. Will definitely continue using their services.",
+        "text": "Zoila has been my cleaning professional since 2023, and I cannot recommend her highly enough. Her quality of work is consistently excellent, her pricing is very fair, and she's always flexible and accommodating with scheduling. She pays close attention to detail—from neatly folding blankets to ensuring all trash is removed—and is responsive and professional in all communication.",
         "date": "February 2024"
       },
       {
@@ -167,7 +155,8 @@
   "contact": {
     "title": "Contact Us",
     "subtitle": "Ready to get your home or office cleaned? Reach out to us via WhatsApp and we'll get back to you with a free estimate.",
-    "whatsapp": "WhatsApp"
+    "whatsapp": "WhatsApp",
+    "cta": "Click to start a conversation"
   },
   "footer": {
     "tagline": "Making Your Home Sparkle, One Clean at a Time!",

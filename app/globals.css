@@ -1,14 +1,17 @@
 :root {
-  /* Primary Colors from Color Palette */
-  --primary-navy: #1A2B49;        /* Navy Blue - Brand/Headings */
-  --accent-yellow: #F7B500;       /* Construction Yellow - Buttons/Highlights */
+  /* Primary Colors from New Logo */
+  --primary-navy: #1E3A8A;        /* Royal Blue - Brand/Headings (matches logo background) */
+  --accent-yellow: #FFD700;       /* Bright Yellow - Buttons/Highlights (matches logo glove) */
+  --accent-pink: #FF69B4;         /* Pink - Accent color (matches logo bandana/bow) */
+  --accent-green: #90EE90;        /* Light Green - Accent color (matches logo apron) */
+  --accent-purple: #9370DB;       /* Purple - Accent color (matches logo feather duster) */
   --secondary-gray: #5C677D;      /* Slate Gray - Secondary Accent */
   --background-white: #F9F9F9;    /* Off-White - Background */
   --text-charcoal: #333333;       /* Charcoal Gray - Body Text */
   
   /* Optional Contrast Colors */
-  --steel-blue: #3D5A80;          /* Steel Blue - Calming handcrafted tones */
-  --olive-green: #6C8B3C;         /* Olive Green - Calming handcrafted tones */
+  --steel-blue: #3B82F6;          /* Bright Blue - Complementary to royal blue */
+  --royal-blue-dark: #1E40AF;     /* Darker Royal Blue - For gradients */
 }
 
 * {

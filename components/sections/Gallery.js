@@ -29,24 +29,6 @@ const Gallery = () => {
       image: "/Smart-thermostat.jpg",
       description: t("gallery.items.2.description"),
     },
-    {
-      id: 4,
-      title: t("gallery.items.3.title"),
-      image: "/Light-fixture.jpg",
-      description: t("gallery.items.3.description"),
-    },
-    {
-      id: 5,
-      title: t("gallery.items.4.title"),
-      image: "/Drywall-repair.png",
-      description: t("gallery.items.4.description"),
-    },
-    {
-      id: 6,
-      title: t("gallery.items.5.title"),
-      image: "/RO-filter.jpg",
-      description: t("gallery.items.5.description"),
-    },
   ];
 
   // Check screen size
@@ -76,14 +58,6 @@ const Gallery = () => {
     return () => clearInterval(interval);
   }, [maxIndex]);
 
-  const goToPrevious = () => {
-    setCurrentIndex(currentIndex === 0 ? maxIndex : currentIndex - 1);
-  };
-
-  const goToNext = () => {
-    setCurrentIndex(currentIndex === maxIndex ? 0 : currentIndex + 1);
-  };
-
   return (
     <section id="gallery" className={style.gallery}>
       <div className={style.container}>
@@ -93,9 +67,6 @@ const Gallery = () => {
             <p>{t("gallery.subtitle")}</p>
           </div>
           <div className={style["gallery-container"]}>
-            <button className={style["gallery-arrow"]} onClick={goToPrevious}>
-              &#8249;
-            </button>
             <div className={style["gallery-wrapper"]}>
               <div
                 className={style["gallery-slider"]}
@@ -141,20 +112,6 @@ const Gallery = () => {
                 ))}
               </div>
             </div>
-            <button className={style["gallery-arrow"]} onClick={goToNext}>
-              &#8250;
-            </button>
-          </div>
-          <div className={style["gallery-dots"]}>
-            {Array.from({ length: maxIndex + 1 }, (_, index) => (
-              <button
-                key={index}
-                className={`${style["gallery-dot"]} ${
-                  index === currentIndex ? style.active : ""
-                }`}
-                onClick={() => setCurrentIndex(index)}
-              />
-            ))}
           </div>
         </div>
       </div>

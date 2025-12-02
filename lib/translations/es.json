@@ -88,18 +88,6 @@
       {
         "title": "Sanitización de Baño",
         "description": "Limpieza y sanitización completa del baño"
-      },
-      {
-        "title": "Limpieza de Entrada",
-        "description": "Servicio de limpieza de entrada para hogares nuevos"
-      },
-      {
-        "title": "Post-Construcción",
-        "description": "Limpieza especializada después de proyectos de construcción"
-      },
-      {
-        "title": "Limpieza de Oficinas",
-        "description": "Servicios profesionales de limpieza comercial de oficinas"
       }
     ]
   },
@@ -113,7 +101,7 @@
         "date": "Marzo 2024"
       },
       {
-        "text": "¡Excelente servicio! Lucy's Cleaning ha estado haciendo nuestra limpieza de mantenimiento regular durante meses ahora. Su atención al detalle y profesionalismo realmente nos impresionó. Definitivamente continuaremos usando sus servicios.",
+        "text": "Zoila ha sido mi profesional de limpieza desde 2023, y no puedo recomendarla lo suficiente. Su calidad de trabajo es consistentemente excelente, sus precios son muy justos, y siempre es flexible y complaciente con la programación. Presta mucha atención a los detalles—desde doblar mantas ordenadamente hasta asegurarse de que toda la basura sea removida—y es receptiva y profesional en toda la comunicación.",
         "date": "Febrero 2024"
       },
       {
@@ -167,7 +155,8 @@
   "contact": {
     "title": "Contáctenos",
     "subtitle": "¿Listo para limpiar su hogar u oficina? Comuníquese con nosotros por WhatsApp y le responderemos con una estimación gratuita.",
-    "whatsapp": "WhatsApp"
+    "whatsapp": "WhatsApp",
+    "cta": "Haga clic para iniciar una conversación"
   },
   "footer": {
     "tagline": "¡Haciendo que su Hogar Brille, Una Limpieza a la Vez!",
