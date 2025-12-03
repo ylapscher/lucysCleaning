@@ -1,37 +1,62 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Lucy's Cleaning - Professional Home Cleaning Services
+
+A modern, responsive website for Lucy's Cleaning, a professional home and office cleaning service serving Hudson County, NJ. The website showcases services, customer testimonials, and provides an easy way for customers to contact the business via WhatsApp.
+
+## About
+
+Lucy's Cleaning is owned and operated by Zoila, who brings years of experience in professional cleaning services. The business specializes in:
+
+- Deep cleaning services
+- Regular maintenance cleaning (weekly, bi-weekly, monthly)
+- Move-in/move-out cleaning
+- Post-construction cleanup
+- Office cleaning
+- Window cleaning
+- Carpet and upholstery cleaning
+- Specialty cleaning services
+
+## Features
+
+- **Bilingual Support**: English and Spanish language options
+- **Responsive Design**: Optimized for mobile, tablet, and desktop
+- **Service Showcase**: Detailed information about all cleaning services offered
+- **Customer Testimonials**: Real reviews from satisfied customers
+- **Easy Contact**: WhatsApp integration for quick communication
+- **SEO Optimized**: Structured data and sitemap for better search visibility
+
+## Tech Stack
+
+This is a [Next.js](https://nextjs.org) project built with:
+
+- Next.js App Router
+- React
+- CSS Modules for styling
+- Next.js Image optimization
+- Responsive design with mobile-first approach
 
 ## Getting Started
 
-First, run the development server:
+First, install dependencies:
+
+```bash
+npm install
+```
+
+Then, run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Contact
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Phone**: +1 (551) 301-2908
+- **WhatsApp**: [Click to start a conversation](https://wa.me/15513012908)
+- **Website**: [lucys-cleaning.com](https://lucys-cleaning.com)
 
-## Learn More
+## Deploy
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+The easiest way to deploy this Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 

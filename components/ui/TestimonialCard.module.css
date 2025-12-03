@@ -106,6 +106,8 @@
   color: var(--secondary-gray);
   font-size: 0.85rem;
   font-style: italic;
+  margin-top: 0.3rem;
+  display: block;
 }
 
 /* Mobile Responsive */
@@ -150,13 +152,32 @@
 
 @media (max-width: 640px) {
   .testimonial-card {
-    padding: 1.5rem;
+    padding: 1.25rem;
   }
 
   .testimonial-quote-icon {
     font-size: 3rem;
     top: -6px;
-    left: 1.5rem;
+    left: 1.25rem;
+  }
+
+  .testimonial-content {
+    margin-top: 0.75rem;
+  }
+
+  .testimonial-rating {
+    margin-bottom: 0.75rem;
+  }
+
+  .testimonial-text {
+    font-size: 0.9rem;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+  }
+
+  .testimonial-footer {
+    padding-top: 0.75rem;
+    margin-top: auto;
   }
 
   .testimonial-author {

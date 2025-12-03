@@ -214,11 +214,20 @@
 
 @media (max-width: 640px) {
   .testimonials {
-    padding: 2.5rem 0.75rem;
+    padding: 2rem 0.75rem;
+  }
+
+  .section-header {
+    margin-bottom: 1.5rem;
   }
 
   .section-header h2 {
-    font-size: 2.2rem;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  .testimonials-slider-container {
+    margin-bottom: 2rem;
   }
 
   .testimonials-slider-wrapper {
@@ -231,11 +240,16 @@
     font-size: 18px;
   }
 
+  .testimonials-dots {
+    margin-bottom: 1.5rem;
+  }
+
   .testimonials-footer {
-    padding: 1.5rem 1rem;
+    padding: 1.25rem 1rem;
+    margin-top: 1rem;
   }
 
   .testimonials-footer p {
-    font-size: 1rem;
+    font-size: 0.95rem;
   }
 }
